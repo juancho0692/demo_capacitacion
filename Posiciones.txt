@@ -1,0 +1,76 @@
+Menu
+
+menu_01:	x: 1499px	y: 0px
+menu_02:	x: 158px	y: 321px
+menu_03:	x: 158px	y: 477px
+menu_04:	x: 197px	y: 527px
+
+
+Slide
+
+logo:		x: 0px		y: 0px
+barra: 		x: 338px	y: 0px
+siguiente:	x: 1796px	y: 415px
+anterior:	x: 24px		y: 415px
+
+
+Modulo 01 Parte 01
+
+m01_01_01:		x: 238px	y: 272px
+m01_01_02:		x: 806px	y: 330px
+m01_01_03:		x: 806px	y: 384px
+m01_01_04:		x: 806px	y: 464px
+m01_01_05:		x: 806px	y: 552px
+m01_01_06:		x: 806px	y: 690px
+
+Modulo 01 Parte 02
+
+m01_02_01:		x: 161px	y: 265px
+m01_02_02:		x: 750px	y: 262px
+m01_02_03:		x: 750px	y: 329px
+m01_02_04:		x: 750px	y: 393px
+m01_02_05:		x: 750px	y: 498px
+m01_02_06:		x: 750px	y: 671px
+
+Modulo 01 Parte 03
+
+m01_03_01:		x: 198px	y: 261px
+m01_03_02:		x: 786px	y: 258px
+m01_03_03:		x: 786px	y: 330px
+m01_03_04:		x: 786px	y: 394px
+m01_03_05:		x: 786px	y: 500px
+m01_03_06:		x: 786px	y: 549px
+m01_03_07:		x: 786px	y: 596px
+m01_03_08:		x: 786px	y: 647px
+m01_03_09:		x: 786px	y: 738px
+m01_03_10:		x: 786px	y: 787px
+m01_03_11:		x: 786px	y: 836px
+
+Modulo 01 Parte 04
+
+m01_04_01:		x: 258px	y: 317px
+m01_04_02:		x: 952px	y: 430px
+m01_04_03:		x: 952px	y: 499px
+m01_04_04:		x: 952px	y: 563px
+m01_04_05:		x: 545px	y: 738px
+m01_04_06:		x: 435px	y: 344px
+m01_04_07:		x: 807px	y: 368px
+m01_04_08:		x: 427px	y: 632px
+m01_04_09:		x: 507px	y: 574px
+
+Modulo 01 Parte 05
+
+m01_05_01:		x: 172px	y: 328px
+m01_05_02:		x: 883px	y: 328px
+m01_05_03:		x: 883px	y: 463px
+m01_05_04:		x: 883px	y: 567px
+m01_05_05:		x: 883px	y: 703px
+
+Modulo 01 Parte 06
+
+m01_06_01:		x: 287px	y: 258px
+m01_06_02:		x: 828px	y: 298px
+m01_06_03:		x: 828px	y: 443px
+m01_06_04:		x: 828px	y: 499px
+m01_06_05:		x: 828px	y: 634px
+m01_06_06:		x: 828px	y: 774px

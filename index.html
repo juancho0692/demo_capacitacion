@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+<meta charset="utf-8">
+<title>Demo Preludyo</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<section id="intro">
+        <article id="obj_1"><img src="img/intro/intro_03.png"></article>
+        <article id="obj_2"><img src="img/intro/intro_05.png"></article>
+        <article id="obj_3"><img src="img/intro/intro_06.png"></article>
+        <article id="obj_4"><img src="img/intro/intro_09.png" onClick="modulo('intro', 'menu', 'a_menu')"></article>
+    </section>
+    
+    <section id="menu">
+        <article class="logo"><img src="img/logo.png" onClick="modulo('menu', 'intro', 'a_intro')"></article>
+        <article id="menu_01"><img src="img/menu/menu_01.png"></article>
+        <article id="menu_02"><img src="img/menu/menu_02.png"></article>
+        <!-- Aqui abajo va un onClick para que apenas unde se despliegue el menu -->
+        <article id="menu_03"><img src="img/menu/menu_03.png"></article>
+        <article id="menu_04"><img src="img/menu/menu_04.png" onClick="modulo('menu', 'modulo01_01', 'a_modulo01_01')"></article>
+    </section>
+
+    <section id="modulo01_01">
+        <article class="logo"><img src="img/logo.png" onClick="modulo('modulo01_01', 'intro', 'a_intro')"></article>
+        <article class="barra"><img src="img/barra.png"></article>
+        <article id="m_01_01"><img src="img/m01_01/m01_01_01.png"></article>
+        <article id="m_01_02"><img src="img/m01_01/m01_01_02.png"></article>
+        <article id="m_01_03"><img src="img/m01_01/m01_01_03.png"></article>
+        <article id="m_01_04"><img src="img/m01_01/m01_01_04.png"></article>
+        <article id="m_01_05"><img src="img/m01_01/m01_01_05.png"></article>
+        <article id="m_01_06"><img src="img/m01_01/m01_01_06.png"></article>
+        <article class="siguiente"><img src="img/siguiente.png" onCLick="moduloSiguiente('modulo01_01', 'modulo01_02', 'a_modulo01_02')"></article>
+    </section>
+
+    <section id="modulo01_02">
+        <article class="logo"><img src="img/logo.png" onClick="modulo('modulo01_02', 'intro', 'a_intro')"></article>
+        <article class="barra"><img src="img/barra.png"></article>
+        <article id="m_02_01"><img src="img/m01_02/m01_02_01.png"></article>
+        <article id="m_02_02"><img src="img/m01_02/m01_02_02.png"></article>
+        <article id="m_02_03"><img src="img/m01_02/m01_02_03.png"></article>
+        <article id="m_02_04"><img src="img/m01_02/m01_02_04.png"></article>
+        <article id="m_02_05"><img src="img/m01_02/m01_02_05.png"></article>
+        <article id="m_02_06"><img src="img/m01_02/m01_02_06.png"></article>
+        <article class="siguiente"><img src="img/siguiente.png" onCLick="moduloSiguiente('modulo01_02', 'modulo01_03', 'a_modulo01_03')"></article>
+        <article class="anterior"><img src="img/anterior.png" onCLick="moduloAnterior('modulo01_02', 'modulo01_01', 'a_modulo01_01')"></article>
+    </section>
+
+    <section id="modulo01_03">
+        <article class="logo"><img src="img/logo.png" onClick="modulo('modulo01_03', 'intro', 'a_intro')"></article>
+        <article class="barra"><img src="img/barra.png"></article>
+        <article id="m_03_01"><img src="img/m01_03/m01_03_01.png"></article>
+        <article id="m_03_02"><img src="img/m01_03/m01_03_02.png"></article>
+        <article id="m_03_03"><img src="img/m01_03/m01_03_03.png"></article>
+        <article id="m_03_04"><img src="img/m01_03/m01_03_04.png"></article>
+        <article id="m_03_05"><img src="img/m01_03/m01_03_05.png"></article>
+        <article id="m_03_06"><img src="img/m01_03/m01_03_06.png"></article>
+        <article id="m_03_07"><img src="img/m01_03/m01_03_07.png"></article>
+        <article id="m_03_08"><img src="img/m01_03/m01_03_08.png"></article>
+        <article id="m_03_09"><img src="img/m01_03/m01_03_09.png"></article>
+        <article id="m_03_10"><img src="img/m01_03/m01_03_10.png"></article>
+        <article id="m_03_11"><img src="img/m01_03/m01_03_11.png"></article>
+        <article class="siguiente"><img src="img/siguiente.png" onCLick="moduloSiguiente('modulo01_03', 'modulo01_04', 'a_modulo01_04')"></article>
+        <article class="anterior"><img src="img/anterior.png" onCLick="moduloAnterior('modulo01_03', 'modulo01_02', 'a_modulo01_02')"></article>
+    </section>
+
+    <section id="modulo01_04">
+        <article class="logo"><img src="img/logo.png" onClick="modulo('modulo01_04', 'intro', 'a_intro')"></article>
+        <article class="barra"><img src="img/barra.png"></article>
+        <article id="m_04_01"><img src="img/m01_04/m01_04_01.png"></article>
+        <article id="m_04_02"><img src="img/m01_04/m01_04_02.png"></article>
+        <article id="m_04_03"><img src="img/m01_04/m01_04_03.png"></article>
+        <article id="m_04_04"><img src="img/m01_04/m01_04_04.png"></article>
+        <article id="m_04_05"><img src="img/m01_04/m01_04_05.png"></article>
+        <article id="m_04_06"><img src="img/m01_04/m01_04_06.png"></article>
+        <article id="m_04_07"><img src="img/m01_04/m01_04_07.png"></article>
+        <article id="m_04_08"><img src="img/m01_04/m01_04_08.png"></article>
+        <article id="m_04_09"><img src="img/m01_04/m01_04_09.png"></article>
+        <article class="siguiente"><img src="img/siguiente.png" onCLick="moduloSiguiente('modulo01_04', 'modulo01_05', 'a_modulo01_05')"></article>
+        <article class="anterior"><img src="img/anterior.png" onCLick="moduloAnterior('modulo01_04', 'modulo01_03', 'a_modulo01_03')"></article>
+    </section>
+
+    <section id="modulo01_05">
+        <article class="logo"><img src="img/logo.png" onClick="modulo('modulo01_05', 'intro', 'a_intro')"></article>
+        <article class="barra"><img src="img/barra.png"></article>
+        <article id="m_05_01"><img src="img/m01_05/m01_05_01.png"></article>
+        <article id="m_05_02"><img src="img/m01_05/m01_05_02.png"></article>
+        <article id="m_05_03"><img src="img/m01_05/m01_05_03.png"></article>
+        <article id="m_05_04"><img src="img/m01_05/m01_05_04.png"></article>
+        <article id="m_05_05"><img src="img/m01_05/m01_05_05.png"></article>
+        <article class="siguiente"><img src="img/siguiente.png" onCLick="moduloSiguiente('modulo01_05', 'modulo01_06', 'a_modulo01_06')"></article>
+        <article class="anterior"><img src="img/anterior.png" onCLick="moduloAnterior('modulo01_05', 'modulo01_04', 'a_modulo01_04')"></article>
+    </section>
+
+    <section id="modulo01_06">
+        <article class="logo"><img src="img/logo.png" onClick="modulo('modulo01_06', 'intro', 'a_intro')"></article>
+        <article class="barra"><img src="img/barra.png"></article>
+        <article id="m_06_01"><img src="img/m01_06/m01_06_01.png"></article>
+        <article id="m_06_02"><img src="img/m01_06/m01_06_02.png"></article>
+        <article id="m_06_03"><img src="img/m01_06/m01_06_03.png"></article>
+        <article id="m_06_04"><img src="img/m01_06/m01_06_04.png"></article>
+        <article id="m_06_05"><img src="img/m01_06/m01_06_05.png"></article>
+        <article id="m_06_06"><img src="img/m01_06/m01_06_06.png"></article>
+        <article class="anterior"><img src="img/anterior.png" onCLick="moduloAnterior('modulo01_06', 'modulo01_05', 'a_modulo01_05')"></article>
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
+
+
