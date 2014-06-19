@@ -91,6 +91,10 @@ function moduloAnterior(oculta, muestra, reproduce){
     window[reproduce].play();
 }
 
+function desplegar(reproduce){
+    window[reproduce].play();
+}
+
 //INTRODUCCION
 var a_intro = new TimelineMax({paused:false});
 a_intro.add(TweenLite.to(intro, 0, {display:"block"}));
@@ -106,7 +110,10 @@ a_menu.add(TweenLite.from(logo, 0.5, {left:-200, opacity:0, ease:"Back.easeOut"}
 a_menu.add(TweenLite.from(menu_01, 0.5, {left:2000, opacity:0, ease:"Back.easeOut"}));
 a_menu.add(TweenLite.from(menu_02, 0.5, {top:100, delay: 1, opacity:0, ease:"Back.easeOut"}));
 a_menu.add(TweenLite.from(menu_03, 0.5, {top:100, opacity:0, ease:"Back.easeOut"}));
-a_menu.add(TweenLite.from(menu_04, 0.5, {top:100, opacity:0, ease:"Back.easeOut"}));
+
+var a_menuShow = new TimelineMax({paused:true});
+//a_menu.add(TweenLite.from(menu_04, 0.5, {height:0, ease:"Back.easeOut"}));
+a_menuShow.add(TweenLite.to(menu_04, 0.5, {height:600, ease:"Back.easeOut"}));
 
 
 //MODULO 01 PARTE 01
